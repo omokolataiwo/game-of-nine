@@ -1,0 +1,99 @@
+* {
+  font-size: 1.1em;
+}
+.main {
+  border: 1px solid;
+  margin: 0 auto;
+  width: 60%;
+  overflow: hidden;
+}
+
+.main .title {
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #880000;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.player-pad {
+  width: 40%;
+  border: 1px solid;
+  float: left;
+}
+
+.game-environment {
+  padding: 0 0 5px 3%;
+  display: inline-block;
+  width: 56%;
+}
+
+.player-answer, .stars {
+  font-size: 2em;
+}
+
+.stars {
+  margin-top: 20px auto;
+}
+.stars i {
+  display: inline-block;
+  margin: 5px;
+  color: green;
+}
+
+.check-answer button {
+  width: 60%;
+  margin-top: 40px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.redraw {
+  display: inline-block;
+  border: 1px solid;
+  padding: 4%;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.done-frame span{
+  margin-left: 70%;
+  cursor: pointer;
+  margin-bottom: 2%;
+  border: 1px solid;
+  font-size: 1rem;
+  display: inline-block;
+  padding: 2%;
+  color: #ffffff;
+  font-weight: 600;
+  background-image: linear-gradient(to bottom right, #030, #090);
+}
+
+.number-btn {
+  display: inline-block;
+  margin: 5px;
+  background-color: #cccccc;
+  padding: 20px 39px;
+  cursor: pointer;
+}
+
+.number-btn:hover {
+  background-color: green;
+  color: #ffffff;
+}
+
+.number-btn.selected {
+  background-color: skyblue;
+}
+.number-btn.used {
+  color: #ccc;
+}
+.number-btn.used:hover {
+  background-color: #ccc;
+  color: #ccc;
+}
+.control-wrapper {
+  padding: 10px;
+}
