@@ -5,9 +5,9 @@ A simple mathematical game.
 ### Installation
 
 - Clone the repository
-- navigate in to the cloned directory
-- run npm install && npm start
-- navigate to the game URL on your browser and enjoy :)
+- Navigate into the cloned directory
+- Run npm install && npm start
+- Navigate to the game URL on your browser and enjoy :)
 
 ### How to Play
 
