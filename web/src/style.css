@@ -1,11 +1,17 @@
-* {
+*, html, body {
   font-size: 1.1em;
+}
+body {
+  background-color: #a6f6ff ;
+  background-image: url('../public/top-bg.jpg');
+  background-repeat: no-repeat;
 }
 .main {
   border: 1px solid;
-  margin: 0 auto;
+  margin: 15% auto;
   width: 60%;
   overflow: hidden;
+
 }
 
 .main .title {
@@ -45,6 +51,7 @@
 
 .check-answer button {
   width: 60%;
+  cursor: pointer;
   margin-top: 40px;
   height: 80px;
   margin-right: 20px;
@@ -58,6 +65,9 @@
   border-radius: 20px;
 }
 
+.done-frame div {
+  margin: 2%;
+}
 .done-frame span{
   margin-left: 70%;
   cursor: pointer;
@@ -96,4 +106,5 @@
 }
 .control-wrapper {
   padding: 10px;
+  background-color: #ffffff;
 }
